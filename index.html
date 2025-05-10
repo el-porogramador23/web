@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Emanuel Angulo</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>/EM/</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MAMÁ</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">QUIERO DECIRTE</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">NUESTRAS FOTOS</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Emanuel </span>Hijo de Andrea Paulina Rios Areiza</h2>
+                <p class="descripcion">Feliz Día de las Madres, mamá ❤️
+                    Hoy quiero recordarte lo especial que eres para mí. Gracias por tu amor incondicional, tu paciencia infinita y por estar siempre a mi lado, en cada paso que doy. Eres mi ejemplo de fortaleza, ternura y sabiduría.
+                    Te amo más de lo que las palabras pueden expresar. ¡Disfruta tu día al máximo porque te lo mereces todo y más! </p>
+                <a href="#portfolio">Ir a las fotos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/Andrea1.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mi mamá</p>
+            <h2>Hola, mi mamá se llama <span>Andrea</span> </h2>
+            <h3>Descripción de mi mamá</h3>
+            <p>Feliz Día de las Madres, mamá ❤️
+                No tengo que decir mucho, porque lo sabes: tú eres todo para mí. Mi fuerza, mi apoyo, mi alegría... mi todo. Gracias por ser quien eres y por darme tanto amor cada día.</p>
+            <p>Te amo con todo mi corazón.</p>
+            <!-- <a href="#">Descargar CV</a>-->
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Quiero decirte</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa fa-heart"></i></span>
+                <h4>Te quiero</h4>
+                <hr>
+                <ul class="servicios-tag">
+                </ul>
+                <p>Mi amor es tan grande que podria llenar al mundo</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa fa-volume-up"></i></span>
+                <h4>Intencion</h4>
+                <hr>
+                <ul class="servicios-tag">
+                </ul>
+                <p>Te quiero decir que esto esta hecho con la intencion de impresionarte y enorgullecerte</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa fa-star"></i></span>
+                <h4>Lo que quiero decir</h4>
+                <hr>
+                <ul class="servicios-tag">
+                </ul>
+                <p>Eres una gran madre y eres alguien a quien admirar, te quiero mucho y espero poder llenar tus espectativas y hacerte sentir orgullosa
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa fa-graduation-cap"></i></span>
+                <h4>Nuestro futuro</h4>
+                <hr>
+                <ul class="servicios-tag">
+                </ul>
+                <p>Te quiero decir que aun que no paresca me estoy esforzando muchisimo para poder ser una mejor persona y ser alguien en la vida</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa fa-book"></i></span>
+                <h4>La verdad</h4>
+                <hr>
+                <ul class="servicios-tag">
+                </ul>
+                <p>Te quiero decir que aun que eres una persona regañona, enojona y que siempre me castiga, se que lo haces por que quieres que mejore y que sea alguien bueno en el futuro</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa fa-font-awesome"></i></span>
+                <h4>Por ultimo</h4>
+                <hr>
+                <ul class="servicios-tag">
+                </ul>
+                <p>Por ultimo te quiero decir que te quiero muchisimo y que espero que te puedas enorgulleser de mi y que sigas siendo como eres</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>HABILIDADES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Conocimientos</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="CM"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>control de implementos medicos</p>
+                <span class="porcentaje">99%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Cocina</p>
+                <span class="porcentaje">85%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>comprencion y analisis</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="CA"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Nuestras fotos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Andrea2.jpg" alt="">
+                <div class="info">
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Andrea Y Yo3.jpg" alt="">
+                <div class="info">
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Andrea4.jpg" alt="">
+                <div class="info">
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Andrea Y Yo8.jpg" alt="">
+                <div class="info">
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Andrea6.jpg" alt="">
+                <div class="info">
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Andrea Y Yo4.jpg" alt="">
+                <div class="info">
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Andrea3.jpg" alt="">
+                <div class="info">
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Andrea Y Yo2.jpg" alt="">
+                <div class="info">
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Andrea Y Yo7.jpg" alt="">
+                <div class="info">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados a Emanuel- 2025</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
